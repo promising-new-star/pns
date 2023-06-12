@@ -7,7 +7,7 @@
 header .header-1200{
   background: #7f00ff;
   width: 96%;
-  height: 60px;
+  height: 8vh;
   position: fixed;
   left: 2%;
   top: 2vh;
@@ -16,8 +16,8 @@ header .header-1200{
   border: 1px solid #fff;
 }
 header .header-1200 .logo{
-  padding: 10px;
-  height: 40px;
+  padding: 1vh;
+  height: 6vh;
   position: absolute;
   left: 5vw;
 }
@@ -25,7 +25,7 @@ header .header-1200 .bar{
   display: flex;
   position: absolute;
   right: 15vw;
-  padding-top: 19px;
+  padding-top: 3vh;
 }
 header .header-1200 .bar ul{
   padding-left:0
@@ -61,7 +61,7 @@ header .header-1200 .sns li img{
   height: 20px;
   padding-left: 1.5vw;
   padding-right: 1.5vw;
-  padding-top: 20px;
+  padding-top: 3vh;
 }
 header .header-1200 .blank{
   width: 100%;
@@ -76,18 +76,18 @@ header .header-768{
 @media screen and (min-width:768px) and ( max-width:1199.98px){
   header .header-768{
     background: #7f00ff;
-    width: 90%;
-    height: 60px;
+    width: 96%;
+    height: 8vh;
     position: fixed;
-    left: 5%;
+    left: 2%;
     top: 2vh;
     z-index: 256;
     border-radius: 15px  15px 15px 15px;
     border: 1px solid #fff;
   }
   header .header-768 .logo{
-    padding: 10px;
-    height: 40px;
+    padding: 1vh;
+    height: 6vh;
     position: absolute;
     left: 5vw;
     z-index: 100;
@@ -136,11 +136,11 @@ header .header-768 .drawer_open {
   transform: rotate(-45deg);
 }
 .nav_content {
-  width: 90%;
+  width: 96%;
   height: 50%;
   position: fixed;
   bottom: 100%;
-  left: 5%;
+  left: 2%;
   z-index: 99;
   background-color: #7f00ff;
   transition: .0s;
@@ -160,7 +160,7 @@ header .p{
   text-align: center;
 }
 header .p p{
-  font-size: 10px;
+  font-size: 15px;10
   font-family: Arial;
   padding-top: 45vh;
   color: #fff;
@@ -222,18 +222,18 @@ header .p p{
 @media screen and (max-width:767.98px){
   header .header-768{
     background: #7f00ff;
-    width: 90%;
-    height: 60px;
+    width: 96%;
+    height: 10vh;
     position: fixed;
-    left: 5%;
+    left: 2%;
     top: 2vh;
     z-index: 256;
     border-radius: 15px  15px 15px 15px;
     border: 1px solid #fff;
   }
   header .header-768 .logo{
-    padding: 10px;
-    height: 40px;
+    padding: 2vh;
+    height: 6vh;
     position: absolute;
     left: 5vw;
     z-index: 100;
@@ -249,8 +249,8 @@ header .header-768 .drawer_open {
   right: 6%;
   z-index: 100;
   cursor: pointer;
-  padding: 10px;
-  height: 40px;
+  padding: 1vh;
+  height: 8vh;
 }
 .drawer_open span,
 .drawer_open span:before,
@@ -282,11 +282,11 @@ header .header-768 .drawer_open {
   transform: rotate(-45deg);
 }
 header .nav_content {
-  width: 90%;
+  width: 96%;
   height: 50%;
   position: fixed;
   bottom: 100%;
-  left: 5%;
+  left: 2%;
   z-index: 99;
   background-color: #7f00ff;
   transition: .0s;
@@ -300,15 +300,15 @@ header .nav_content {
 }
 #drawer_input:checked ~ .nav_content {
   bottom: 10vh;
-  top: 7vh;
+  top: 8vh;
 }
 header .p{
   text-align: center;
 }
 header .p p{
-  font-size: 10px;
+  font-size: 1vh;
   font-family: Arial;
-  padding-top: 45vh;
+  padding-top: 48vh;
   color: #fff;
 }
   header .header-768 .bar{
@@ -329,7 +329,7 @@ header .p p{
     color: #FFF;
     text-decoration: none;
     font-family: Arial;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: 5;
     padding-top: 2.5vw;
     padding-bottom: 2.5vw;
@@ -411,17 +411,17 @@ main .firstview .text{
 }
 @media screen and (min-width:1200px){
   main .firstview p.TextTyping{
-      font-size: 40px;
+      font-size: 3vw;
   }
 }
 @media screen and (min-width:768px) and ( max-width:1199.98px){
   main .firstview p.TextTyping{
-      font-size: 30px;
+      font-size: 4vw;
   }
 }
 @media screen and (max-width:767.98px){
   main .firstview p.TextTyping{
-      font-size: 30px;
+      font-size: 5vh;
   }
 }
 main .firstview p.TextTyping{
@@ -678,7 +678,7 @@ main .vision p{
 @media screen and (min-width:768px) and ( max-width:1199.98px){
   main .vision p{
     color: #ccccff;
-    font-size: 15px;
+    font-size: 18px;
     display: block;
     line-height: 50px;
     padding-top: 2vh;
@@ -689,7 +689,7 @@ main .vision p{
 @media screen and (max-width:767.98px){
   main .vision p{
     color: #ccccff;
-    font-size: 13px;
+    font-size: 20px;
     display: block;
     line-height: 50px;
     padding-top: 2vh;
@@ -747,7 +747,7 @@ main .mission p{
 @media screen and (min-width:768px) and ( max-width:1199.98px){
   main .mission p{
     color: #ffd1ff;
-    font-size: 15px;
+    font-size: 18px;
     display: block;
     line-height: 50px;
   }
@@ -755,7 +755,7 @@ main .mission p{
 @media screen and (max-width:767.98px){
   main .mission p{
     color: #ffd1ff;
-    font-size: 13px;
+    font-size: 20px;
     display: block;
     line-height: 50px;
   }
@@ -786,7 +786,7 @@ main .value-div p{
 }
 @media screen and (min-width:768px) and ( max-width:1199.98px){
   main .value-div p{
-    font-size: 15px;
+    font-size: 16px;
   }
 }
 @media screen and (max-width:767.98px){
@@ -794,7 +794,7 @@ main .value-div p{
     width: 90%;
   }
   main .value-div p{
-    font-size: 13px;
+    font-size: 18px;
   }
 }
 main .service{
@@ -852,7 +852,7 @@ main .why p{
     font-size: 3vw;
   }
   main .why p{
-    font-size: 15px;
+    font-size: 18px;
   }
 }
 @media screen and (max-width:767.98px){
@@ -860,20 +860,13 @@ main .why p{
     font-size: 4vw;
   }
   main .why p{
-    font-size: 13px;
+    font-size: 20px;
   }
 }
 main .news{
   background-color: #7f00ff;
   width: 100%;
   display: flex;
-}
-main .news p{
-  color: #ccccff;
-  font-size: 16px;
-  display: block;
-  line-height: 40px;
-  padding-bottom: 10vh;
 }
 main .news-div{
   padding-top: 15vh;
@@ -887,6 +880,29 @@ main .news-div h3{
   line-height: 80px;
   font-family: Arial;
 }
+main .news p{
+  color: #ccccff;
+  font-size: 16px;
+  display: block;
+  line-height: 40px;
+  padding-bottom: 10vh;
+}
+@media screen and (max-width:767.98px){
+  main .news-div h3{
+    color: #fff;
+    font-size: 22px;
+    line-height: 80px;
+    font-family: Arial;
+  }
+  main .news p{
+    color: #ccccff;
+    font-size: 20px;
+    display: block;
+    line-height: 40px;
+    padding-bottom: 10vh;
+  }
+}
+
 main .about-company{
   background-color: #192f60;
   width: 100%;
