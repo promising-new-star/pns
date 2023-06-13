@@ -1141,7 +1141,7 @@ main .twitter{
     top: 140px;
   }
 }
-@media screen and (max-width:767.98px){
+@media　screen　and　(max-width:767.98px){
   footer{
     width: 100vw;
     height: 500px;
